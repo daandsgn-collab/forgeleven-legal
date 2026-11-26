@@ -17,15 +17,16 @@
 </head>
 <body>
 <h1>Forgeleven Privacy Policy</h1>
-<p class="meta">Last updated: 22 November 2026</p>
+<p class="meta">Last updated: 26 November 2026</p>
 
 <p>Forgeleven ("we", "the app") shows how realistic football transfers currently look, using the Forgeleven Realism Score. This policy explains which data the app processes, why, and what your rights are.</p>
-<p><strong>Who is responsible:</strong> Forgeleven, operated by Daan, the Netherlands. Contact: <a href="mailto:daan.dsgn@gmail.com">daan.dsgn@gmail.com</a>.</p>
+<p><strong>Who is responsible:</strong> Forgeleven is a trade name of daandsgn, a sole proprietorship (eenmanszaak) of Daan, registered with the Dutch Chamber of Commerce (KvK) under number <strong>42231620</strong>, the Netherlands. Contact: <a href="mailto:daan.dsgn@gmail.com">daan.dsgn@gmail.com</a>.</p>
 
 <h2>In short</h2>
 <ul>
   <li>No account, no name, no email address, no password.</li>
-  <li>No tracking across other apps or websites, and no advertising profile: ads are requested as non-personalized.</li>
+  <li>No tracking across other apps or websites, and no advertising profile: ads are requested as non-personalized. In the EEA, UK and Switzerland you are first asked for your ad privacy choice, which you can change at any time in Settings.</li>
+  <li>If you vote for the next Forgeleven Pick, we store a random voter number and your vote - nothing that identifies you.</li>
   <li>Only if you turn on notifications do we store a push token and the clubs you follow.</li>
   <li>Payments are handled by Apple or Google; we never see your payment details.</li>
 </ul>
@@ -35,6 +36,7 @@
   <li>The club you last selected, so the app opens on that club.</li>
   <li>Your favorite (followed) clubs and your notification setting.</li>
   <li>A cached copy of the transfer data, the players you unlocked by watching an ad, and your Premium status as confirmed by the app store.</li>
+  <li>A random voter number (only once you open the Forgeleven Picks vote) and your ad privacy choice.</li>
 </ul>
 <p>This data stays on your device and is removed when you delete the app.</p>
 
@@ -43,16 +45,17 @@
   <tr><th>What</th><th>Why</th><th>Who processes it</th></tr>
   <tr><td>Push token (a random identifier for your device, created by Apple/Google/Expo), platform (iOS/Android) and the clubs you follow - <em>only when notifications are on</em></td><td>To send you important transfer updates for the clubs you follow</td><td>Our server on Supabase (EU - Zurich, Switzerland); delivery through Expo's push service and Apple/Google</td></tr>
   <tr><td>An anonymous app user identifier and your purchase receipts</td><td>To verify and restore Premium</td><td>RevenueCat, together with Apple App Store / Google Play</td></tr>
-  <tr><td>Device and usage information needed to show an ad (for example device type, operating system, approximate location from the IP address, and ad interactions)</td><td>To show the ad you chose to watch, measure it and prevent fraud</td><td>Google AdMob, requested as non-personalized ads</td></tr>
+  <tr><td>A random voter number created by the app and the club you voted for - <em>only when you vote</em></td><td>To count one active vote per installation for the next Forgeleven Pick and show vote totals</td><td>Our server on Supabase (EU - Zurich, Switzerland)</td></tr>
+  <tr><td>Device and usage information needed to show an ad (for example device type, operating system, approximate location from the IP address, and ad interactions)</td><td>To show the ad you chose to watch, measure it and prevent fraud</td><td>Google AdMob, requested as non-personalized ads, after your choice in Google's consent message where required (EEA, UK, Switzerland)</td></tr>
   <tr><td>Transfer data requests (the app downloads published transfer data)</td><td>To show recommendations</td><td>Our server on Supabase; standard server logs (such as IP address) are kept for a short time for security</td></tr>
 </table>
 <p>We do not sell your data and do not use it for advertising profiles. The app does not use analytics or crash-reporting SDKs.</p>
 
 <h2>How long we keep data</h2>
-<p>A push token and its followed clubs are kept while notifications are on. When you turn notifications off they are no longer used, and we delete tokens that are no longer valid. You can ask us to delete them at any time. Purchase records are kept by Apple/Google and RevenueCat as long as needed to provide and restore Premium and to meet legal obligations.</p>
+<p>A push token and its followed clubs are kept while notifications are on. When you turn notifications off they are no longer used, and we delete tokens that are no longer valid. You can ask us to delete them at any time. A vote is kept while it is active; removing your vote in the app deletes it. Purchase records are kept by Apple/Google and RevenueCat as long as needed to provide and restore Premium and to meet legal obligations.</p>
 
 <h2>Ads</h2>
-<p>Free users can choose to watch an ad to unlock more recommendations. Ads are provided by Google AdMob and requested as non-personalized ads, so Google does not use your activity in Forgeleven to build an advertising profile. Google may still process the information listed above to deliver and measure ads and to prevent fraud. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
+<p>Free users can choose to watch an ad to unlock more recommendations. Ads are provided by Google AdMob and requested as non-personalized ads, so Google does not use your activity in Forgeleven to build an advertising profile. Google may still process the information listed above to deliver and measure ads and to prevent fraud. Where the law requires it (EEA, UK, Switzerland), Google's consent message asks for your choice before any ad is requested; you can change it at any time via "Ad privacy choices" in Settings. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
 
 <h2>Purchases</h2>
 <p>Premium (monthly subscription or lifetime) is bought through the Apple App Store or Google Play. We never receive your payment details. Purchases are verified through <a href="https://www.revenuecat.com/privacy/">RevenueCat</a> using an anonymous app user identifier, so your Premium status can be restored on a new installation.</p>
@@ -60,8 +63,14 @@
 <h2>Notifications</h2>
 <p>Notifications are optional and are only requested after you follow a club or turn on transfer updates. You can turn them off in the app or in your device settings at any time.</p>
 
+<h2>People featured in Forgeleven (players)</h2>
+<p>Forgeleven reports on professional footballers. For each player we process their name, position, age, nationality, club and the transfer news published about them by media outlets, which we summarise in our own words with the name of the source. We do not process sensitive data such as health records beyond what is publicly reported as transfer news, and we never use player photos.</p>
+<p>We do this based on our legitimate interest and the freedom of expression and information: informing football fans about publicly reported transfer news. For players under 18 we show only their football details (name, position, age, nationality, club) and the transfer reports about them.</p>
+<p>The full text of a news article is kept for at most 90 days to check our summaries; after that only the extracted facts (type of report, clubs, date, source) remain.</p>
+<p>If you are a featured player (or their representative) and something is wrong, or you object to being included, email <a href="mailto:daan.dsgn@gmail.com">daan.dsgn@gmail.com</a>. We will review and correct or remove the information as required by law, normally within 30 days.</p>
+
 <h2>Legal basis and your rights (EU/EEA and UK)</h2>
-<p>We process data to provide the features you use (performance of a contract), with your consent (notifications), and for our legitimate interest in keeping the service secure and free through ads. You have the right to access, correct and delete your data, to object to processing, to withdraw consent, and to data portability. Because the app has no accounts, the easiest way to delete your data is to turn off notifications and delete the app; you can also email <a href="mailto:daan.dsgn@gmail.com">daan.dsgn@gmail.com</a>. You can file a complaint with your data protection authority (in the Netherlands: the Autoriteit Persoonsgegevens).</p>
+<p>We process data to provide the features you use (performance of a contract), with your consent (notifications and, where required, ads), and for our legitimate interest in keeping the service secure and free through ads. You have the right to access, correct and delete your data, to object to processing, to withdraw consent, and to data portability. Because the app has no accounts, the easiest way to delete your data is to turn off notifications and delete the app; you can also email <a href="mailto:daan.dsgn@gmail.com">daan.dsgn@gmail.com</a>. You can file a complaint with your data protection authority (in the Netherlands: the Autoriteit Persoonsgegevens).</p>
 
 <h2>International transfers</h2>
 <p>Our server is located in Switzerland, which the EU recognises as providing an adequate level of data protection. Google, Apple, Expo and RevenueCat may process data in other countries, including the United States, under their own safeguards such as the EU-US Data Privacy Framework or standard contractual clauses.</p>
